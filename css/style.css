@@ -1,0 +1,34 @@
+*{padding: 0;margin: 0;list-style-type: none;}
+.wrap{width: 500px;height: 400px;margin: 200px auto;border:1px solid #000;}
+.uls
+{
+    width: 100%;
+    height:34px;
+    display: flex;
+    text-align: center;
+}
+.uls li
+{
+    flex:1;
+    border:1px solid #000;
+    cursor: pointer;
+}
+.uls li.bg
+{
+    background: skyblue;
+    color:#fff;
+}
+.con
+{
+    width: 100%;
+    height: 368px;
+    text-align: center;
+}
+.con div
+{
+    width: 100%;
+    height: 100%;
+    line-height: 368px;
+    display:none;
+}
+.con div:nth-child(1){display:block;}
